@@ -98,6 +98,9 @@ if (window.localStorage.backgroundChoice) {
     }
   })
 }
+else {
+  randomizeImage()
+}
 //Check if there's old selected Color 
 if (window.localStorage.selectedColor) {
   getRoot.style.setProperty('--mainColor', window.localStorage.selectedColor)
