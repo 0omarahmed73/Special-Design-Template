@@ -25,7 +25,9 @@ newArr = newArr.reverse();
 newArr.pop();
 newArr.pop();
 newArr.pop();
+newArr.pop();
 newArr = newArr.reverse();
+console.log(newArr)
 newArr = newArr.filter(el => {
   return el.className !== 'over';
 })
