@@ -1,4 +1,4 @@
-let images = ['../imgs/i1.jpg', '../imgs/i2.jpg', '../imgs/i3.jpg', '../imgs/i4.jpg']
+let images = ['imgs/i1.jpg', 'imgs/i2.jpg', 'imgs/i3.jpg', 'imgs/i4.jpg']
 let landingPage = document.getElementsByClassName('landing-page')[0];
 let settingsBox = document.getElementsByClassName('settings-box')[0];
 let navBar = document.querySelector('.header-parent');
