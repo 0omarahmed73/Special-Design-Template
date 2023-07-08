@@ -314,12 +314,12 @@ body {
 }
 .header-area .togglemenu span{
   display: block;
-  background-color: black;
+  background-color: var(--mainColor);
   height: 3px;
   margin-bottom: 3px;
 }
 .header-parent.nav-scroll .togglemenu span{
-  background-color: white;
+  background-color: var(--mainColor);
 }
 .togglemenu::before {
   content: '';
