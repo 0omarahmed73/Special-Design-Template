@@ -318,9 +318,14 @@ body {
   height: 3px;
   margin-bottom: 3px;
 }
+.header-area .togglemenu i , .header-parent.nav-scroll .togglemenu i{
+  color: var(--mainColor);
+  font-size: 20px;
+}
 .header-parent.nav-scroll .togglemenu span{
   background-color: var(--mainColor);
 }
+
 .togglemenu::before {
   content: '';
   border-width: 10px;
