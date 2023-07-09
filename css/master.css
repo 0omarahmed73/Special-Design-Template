@@ -886,6 +886,7 @@ z-index: -5; */
     padding: 10px;
     left: 0;
     transition: 0.5s;
+    z-index : 1000;
   }
   .header-parent {
     padding: 10px;
@@ -1030,6 +1031,7 @@ z-index: -5; */
     padding: 10px;
     border-radius: 4px;
     transition: 0.5s;
+     z-index : 1000;
   }
   .header-parent.nav-scroll .header-area .links-container ul.showLinks{
     background-color: black !important;
