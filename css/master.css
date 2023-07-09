@@ -765,6 +765,7 @@ z-index: -5; */
     background-size: cover ;
     padding-block: 60px;
     position: relative;
+    z-index : 1;
   }
   .contact .overlay {
     position: absolute;
